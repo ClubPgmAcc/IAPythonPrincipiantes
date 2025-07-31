@@ -20,10 +20,14 @@ class AutoElectrico(Auto):
 
 # Crear instancias de Auto y AutoElectrico
 s = Auto("FIAT uno")
+s.velocidad = 10
 s.acelera()
+
+Auto.velocidad = 20
 
 j = AutoElectrico("TESLA s")
 j.acelera()
+j.bateria = 5
 j.carga()
 
-  
+s.acelera()

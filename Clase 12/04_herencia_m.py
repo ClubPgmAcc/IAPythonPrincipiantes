@@ -28,3 +28,6 @@ mi_barco = Barco("Empresa", "ModeloX", 30, 8)
 mi_barco.conducir()  # Salida: Conduciendo un Empresa ModeloX
 mi_barco.navegar()   # Salida: Navegando con una eslora de 30 
                      #         metros y una manga de 8 metros
+
+print(f"Marca: {mi_barco.marca}, Modelo: {mi_barco.modelo}, ")
+      

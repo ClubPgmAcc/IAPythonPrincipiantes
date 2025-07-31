@@ -15,5 +15,6 @@ print("Atributo de instancia instancia2:", instancia2.atributo_clase)  # Salida:
 # Modificar el atributo de clase a través de la clase
 Ejemplo.atributo_clase = 20 
 print("Atributo de clase modificado:", Ejemplo.atributo_clase) # Salida: 20
+instancia1.atributo_clase = 30 # Modificar el atributo de clase a través de una instancia
 print("Atributo de instancia instancia1 modificado:", instancia1.atributo_clase)
 print("Atributo de instancia instancia2 modificado:", instancia2.atributo_clase)
