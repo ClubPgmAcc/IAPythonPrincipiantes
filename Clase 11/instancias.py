@@ -15,3 +15,7 @@ j = PartyAnimal("JUAN")
 s.party()
 j.party()
 s.party()
+
+j.party()
+j.party()
+s.party()
